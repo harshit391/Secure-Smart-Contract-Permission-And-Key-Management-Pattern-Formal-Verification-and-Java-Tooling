@@ -1,0 +1,7 @@
+{
+  "detectors_to_run": "all",
+  "filter_paths": "node_modules,lib",
+  "compile_force_framework": "hardhat",
+  "solc_remaps": "@openzeppelin/=node_modules/@openzeppelin/",
+  "json": "reports/slither-report.json"
+}

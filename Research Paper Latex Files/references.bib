@@ -1,0 +1,204 @@
+% ============================================================
+% REFERENCES for: Secure Smart-Contract Permission & Key
+%                  Management
+% ============================================================
+% 18 references total, all 2021--2025.
+% Original 12 from abstract submission: [1]-[12]
+% Useful additions: ronin, vidal, tolmach, zou, web3j, hardhat
+% ============================================================
+
+% [1] Azimi et al. -- systematic review, 144 patterns
+@article{azimi2025systematic,
+  author    = {Azimi, Sadaf and Golzari, Ali and Ivaki, Naghmeh and Laranjeiro, Nuno},
+  title     = {A Systematic Review on Smart Contracts Security Design Patterns},
+  journal   = {Empirical Software Engineering},
+  volume    = {30},
+  number    = {95},
+  year      = {2025},
+  publisher = {Springer},
+  doi       = {10.1007/s10664-025-10646-w}
+}
+
+% [2] Six et al. -- 120 blockchain pattern taxonomy
+@article{six2022blockchain,
+  author    = {Six, Nicolas and Herbaut, Nicolas and Salinesi, Camille},
+  title     = {Blockchain Software Patterns for the Design of Decentralized Applications: A Systematic Literature Review},
+  journal   = {Blockchain: Research and Applications},
+  volume    = {3},
+  number    = {2},
+  pages     = {100061},
+  year      = {2022},
+  doi       = {10.1016/j.bcra.2022.100061}
+}
+
+% [3] Lu et al. -- payment patterns, token lifecycle
+@inproceedings{lu2021patterns,
+  author    = {Lu, Qinghua and Xu, Xiwei and Bandara, H. M. N. Dilum and Chen, Shiping and Zhu, Liming},
+  title     = {Patterns for Blockchain-Based Payment Applications},
+  booktitle = {Proceedings of the 26th European Conference on Pattern Languages of Programs (EuroPLoP)},
+  year      = {2021},
+  publisher = {ACM},
+  doi       = {10.1145/3489449.3490006}
+}
+
+% [4] Kannengiesser et al. -- challenges & SDPs
+@article{kannengiesser2022challenges,
+  author    = {Kannengie{\ss}er, Niclas and Lins, Sebastian and T{\"o}llich, Tobias and Sunyaev, Ali},
+  title     = {Challenges and Common Solutions in Smart Contract Development},
+  journal   = {IEEE Transactions on Software Engineering},
+  volume    = {48},
+  number    = {11},
+  pages     = {4291--4318},
+  year      = {2022},
+  doi       = {10.1109/TSE.2021.3116808}
+}
+
+% [5] Park et al. -- Aptos Move Prover
+@inproceedings{park2024securing,
+  author    = {Park, Junkil and Zhang, Teng and Grieskamp, Wolfgang and Xu, Meng and Di~Giacomo, Gerardo and Chen, Kundu and Lu, Yi and Chen, Robert},
+  title     = {Securing {Aptos} Framework with Formal Verification},
+  booktitle = {4th International Workshop on Formal Methods for Blockchains (FMBC)},
+  series    = {OASIcs},
+  volume    = {118},
+  pages     = {9:1--9:16},
+  year      = {2024},
+  doi       = {10.4230/OASIcs.FMBC.2024.9}
+}
+
+% [6] Antonino et al. -- "Specification is Law"
+@inproceedings{antonino2022specification,
+  author    = {Antonino, Pedro and Ferreira, Juliandson and Sampaio, Augusto and Roscoe, A. W.},
+  title     = {Specification is Law: Safe Creation and Upgrade of {Ethereum} Smart Contracts},
+  booktitle = {Proceedings of the International Symposium on Leveraging Applications of Formal Methods (ISoLA)},
+  year      = {2022},
+  doi       = {10.48550/arXiv.2205.07529}
+}
+
+% [7] Kandi et al. -- decentralized key management for IoT
+@article{kandi2022decentralized,
+  author    = {Kandi, Mohamed Amine and Lakhdari, Hamza and Boubiche, Djallel Eddine and Kirik, Meryem},
+  title     = {A Decentralized Blockchain-Based Key Management Protocol for Heterogeneous and Dynamic {IoT} Devices},
+  journal   = {Computer Communications},
+  volume    = {191},
+  pages     = {447--459},
+  year      = {2022},
+  doi       = {10.1016/j.comcom.2022.05.020}
+}
+
+% [8] Wu et al. -- secret key sharing
+@article{wu2024blockchain,
+  author    = {Wu, Chia-Chun and Chang, Chun-Tse and Lin, Iuon-Chang and Hwang, Min-Shiang},
+  title     = {Research on Blockchain Secret Key Sharing and Its Digital Asset Applications},
+  journal   = {International Journal of Network Security},
+  volume    = {26},
+  number    = {1},
+  pages     = {160--166},
+  year      = {2024},
+  doi       = {10.6633/IJNS.202401_26(1).20}
+}
+
+% [9] Takei & Shudo -- key management for custodians (replaces Aumasson 2020)
+@inproceedings{takei2024keymgmt,
+  author    = {Takei, Yuzuka and Shudo, Kazuyuki},
+  title     = {Pragmatic Analysis of Key Management for Cryptocurrency Custodians},
+  booktitle = {2024 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)},
+  year      = {2024},
+  doi       = {10.1109/ICBC59979.2024.10634356}
+}
+
+% [10] Goint et al. -- off-chain storage access control
+@article{goint2023secure,
+  author    = {Goint, Mongetro and Bertelle, Cyrille and Duvallet, Claude},
+  title     = {Secure Access Control to Data in Off-Chain Storage in Blockchain-Based Consent Systems},
+  journal   = {Mathematics},
+  volume    = {11},
+  number    = {7},
+  pages     = {1592},
+  year      = {2023},
+  doi       = {10.3390/math11071592}
+}
+
+% [11] Blackshear et al. -- KELP reactive key-loss protection
+@inproceedings{blackshear2021kelp,
+  author    = {Blackshear, Sam and Chalkias, Konstantinos and Chatzigiannis, Panagiotis and Faizullabhoy, Riyaz and Khaburzaniya, Irakliy and Kokoris~Kogias, Eleftherios and Lind, Joshua and Wong, David and Zakian, Tim},
+  title     = {Reactive Key-Loss Protection in Blockchains},
+  booktitle = {Cryptology ePrint Archive},
+  number    = {2021/289},
+  year      = {2021},
+  url       = {https://eprint.iacr.org/2021/289}
+}
+
+% [12] Antonino et al. -- refinement-based SC evolution
+@article{antonino2024refinement,
+  author    = {Antonino, Pedro and Ferreira, Juliandson and Sampaio, Augusto and Roscoe, A. W.},
+  title     = {A Refinement-Based Model for Safe Smart-Contract Evolution},
+  journal   = {Science of Computer Programming},
+  volume    = {237},
+  pages     = {103148},
+  year      = {2024},
+  doi       = {10.1016/j.scico.2024.103148}
+}
+
+% ============================================================
+% USEFUL ADDITIONS (all 2021--2024)
+% ============================================================
+
+% Ronin bridge incident
+@misc{ronin2022,
+  author    = {{Ronin Network}},
+  title     = {Community Alert: {Ronin} Validators Compromised},
+  howpublished = {\url{https://roninblockchain.substack.com/p/community-alert-ronin-validators}},
+  year      = {2022}
+}
+
+% OpenSCV taxonomy
+@article{vidal2024openscv,
+  author    = {Vidal, Fernando and Ivaki, Naghmeh and Laranjeiro, Nuno},
+  title     = {{OpenSCV}: An Open Hierarchical Taxonomy for Smart Contract Vulnerabilities},
+  journal   = {Empirical Software Engineering},
+  volume    = {29},
+  number    = {4},
+  pages     = {101},
+  year      = {2024},
+  doi       = {10.1007/s10664-024-10478-0}
+}
+
+% Tolmach et al. -- survey on formal verification of SCs
+@article{tolmach2022survey,
+  author    = {Tolmach, Palina and Li, Yi and Lin, Shang-Wei and Liu, Yang and Li, Zengxiang},
+  title     = {A Survey of Smart Contract Formal Specification and Verification},
+  journal   = {ACM Computing Surveys},
+  volume    = {54},
+  number    = {7},
+  pages     = {148:1--148:38},
+  year      = {2022},
+  doi       = {10.1145/3464421}
+}
+
+% Zou et al. -- smart contract development challenges
+@article{zou2021smart,
+  author    = {Zou, Weiqin and Lo, David and Kochhar, Pavneet Singh and Le, Xuan-Bach Dinh and Xia, Xin and Feng, Yang and Chen, Zhenyu and Xu, Baowen},
+  title     = {Smart Contract Development: Challenges and Opportunities},
+  journal   = {IEEE Transactions on Software Engineering},
+  volume    = {47},
+  number    = {10},
+  pages     = {2084--2106},
+  year      = {2021},
+  doi       = {10.1109/TSE.2019.2942301}
+}
+
+% web3j
+@misc{web3j2024,
+  author    = {{web3j}},
+  title     = {web3j -- Lightweight {Java} and {Android} library for {Ethereum}},
+  howpublished = {\url{https://github.com/web3j/web3j}},
+  year      = {2024}
+}
+
+% Hardhat development environment
+@misc{hardhat2024,
+  author    = {{NomicFoundation}},
+  title     = {Hardhat -- {Ethereum} Development Environment},
+  howpublished = {\url{https://hardhat.org}},
+  year      = {2024}
+}
