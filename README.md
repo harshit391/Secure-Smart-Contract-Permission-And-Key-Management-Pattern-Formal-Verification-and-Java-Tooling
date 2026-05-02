@@ -5,7 +5,6 @@
 
 [![Tests](https://img.shields.io/badge/tests-35%2F35%20passing-brightgreen)](#test-results)
 [![Solidity](https://img.shields.io/badge/solidity-0.8.20-blue)](#design-patterns)
-[![License](https://img.shields.io/badge/license-MIT-green)](implementation/LICENSE)
 
 **Harshit Singla · Harshit Behal · Himanshu Shukla · Dr. Anshu Singla**  
 Department of Computer Science, Chitkara University, Punjab, India
@@ -38,7 +37,6 @@ Department of Computer Science, Chitkara University, Punjab, India
 - [Retrospective Analysis](#retrospective-analysis)
 - [Paper](#paper)
 - [Authors](#authors)
-- [License](#license)
 
 ---
 
@@ -416,8 +414,4 @@ Or upload `main.tex` and `references.bib` to [Overleaf](https://overleaf.com) fo
 
 **Department of Computer Science, Chitkara University, Punjab, India**
 
----
 
-## License
-
-This project is released for academic and research purposes. See `implementation/LICENSE` for details.
