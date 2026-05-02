@@ -6,12 +6,9 @@
 [![Tests](https://img.shields.io/badge/tests-35%2F35%20passing-brightgreen)](#test-results)
 [![Solidity](https://img.shields.io/badge/solidity-0.8.20-blue)](#design-patterns)
 [![License](https://img.shields.io/badge/license-MIT-green)](implementation/LICENSE)
-[![Venue](https://img.shields.io/badge/venue-IEEE%20Conference-blue)](#paper)
 
 **Harshit Singla · Harshit Behal · Himanshu Shukla · Dr. Anshu Singla**  
 Department of Computer Science, Chitkara University, Punjab, India
-
-*IEEE Conference Paper — 6–8 pages, IEEEtran format*
 
 </div>
 
